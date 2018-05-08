@@ -23,7 +23,7 @@ URL:http://www.chris-creed.com
    	font-family: "Trebuchet MS", Helvetica, sans-serif;
    	font-family: Verdana, Geneva, sans-serif;
 	*/
-	ffont-family: Calibri, "Gill Sans", "Gill Sans MT", sans-serif;
+	font-family: Calibri, "Gill Sans", "Gill Sans MT", sans-serif;
 	
 	color:#555;
 	border:1px #eee solid;
@@ -34,7 +34,7 @@ URL:http://www.chris-creed.com
 
 }
 body{
-	font-family:times, serif;
+	font-family: serif, times;
 /*	background-color: #eee;  */
 	background: url(../images/colorful.jpg) center no-repeat;  
 /*	background-position: 50% 50%; */
