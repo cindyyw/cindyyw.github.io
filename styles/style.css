@@ -31,7 +31,7 @@ URL:http://www.chris-creed.com
 	box-shadow:0 0 50px #aaa;
 	background:#fff; 
 	border-radius: 20px;
-	
+
 }
 body{
 	font-family:times, serif;
@@ -39,7 +39,6 @@ body{
 	background: url(../images/colorful.jpg) center no-repeat;  
 /*	background-position: 50% 50%; */
 	background-size: cover;
-    background-position:right;
 }
 h1{
 	font-size:40px;
