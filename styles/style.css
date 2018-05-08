@@ -23,21 +23,23 @@ URL:http://www.chris-creed.com
    	font-family: "Trebuchet MS", Helvetica, sans-serif;
    	font-family: Verdana, Geneva, sans-serif;
 	*/
-	font-family: Calibri, "Gill Sans", "Gill Sans MT", sans-serif;
+	ffont-family: Calibri, "Gill Sans", "Gill Sans MT", sans-serif;
 	
 	color:#555;
 	border:1px #eee solid;
 	padding:70px 70px 20px 70px;
-	-webkit-box-shadow:0 0 50px #aaa;
-	-moz-box-shadow:0 0 30px #aaa;
 	box-shadow:0 0 50px #aaa;
-	background:#fff;
-	background:-moz-linear-gradient(top, #EEEEEE 0%, #FFFFFF 2%);
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%, #EEEEEE), color-stop(2%, #FFFFFF));
+	background:#fff; 
+	border-radius: 20px;
+	
 }
 body{
 	font-family:times, serif;
-	background-color:#eee;
+/*	background-color: #eee;  */
+	background: url(../images/colorful.jpg) center no-repeat;  
+/*	background-position: 50% 50%; */
+	background-size: cover;
+    background-position:right;
 }
 h1{
 	font-size:40px;
