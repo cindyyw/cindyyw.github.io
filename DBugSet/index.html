@@ -38,10 +38,10 @@
 				<br/>(1) An application is submitted to ResourceManager (RM); 
 				<br/>(2) The application gets executed by an ApplicationMaster (AM);
 				<br/>(3) The application status on AM will be periodically polled by its owner client. 
-				<br/>At some point, if the AM crashes, both the RM and the client would notice that. 
-				<br/>(4) The RM would launch a new AM on another node to recover and continue the application; 
-				<br/>(5) The client would ask RM for the address of the new AM. Unfortunately, the client may sometimes get the old AM's address from RM, if the new AM's launching is unexpectedly slow. 
-				<br/>As a result, the client would fail to connect to AM and report application failure in its log, even though the application is successfully completed by the new AM. 
+				<br/>At some point when the AM crashes, both the RM and the client will learn that. 
+				<br/>(4) The RM will launch a new AM on another node to recover and continue the application; 
+				<br/>(5) The client will obtain the address of the new AM from the RM. Unfortunately, sometimes the client may get the old AM's address, if the new AM's launching is unexpectedly slow. 
+				<br/>As a result, the client will fail to connect to the AM, and report application failure in its log, even though the application is successfully completed by the new AM. 
 			</p>
 			<p>&nbsp;</p>
 	
